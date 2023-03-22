@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: beige;
+}
+header{
+    background-color: rgba(75, 163, 75, 0.89);
+    text-align: center;
+    padding: 2em;
+    color: azure;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+div{
+    padding: 1em;
+    display: flex;
+    margin-top: 1em;
+}
+footer{
+    background-color: rgb(165, 97, 42);
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+.gus{
+    background: url(https://cojo.ru/wp-content/uploads/2022/12/zadnii-fon-dlia-igry-2d-5.webp);
+    color: black;
+}
+div img{
+    width: 250px;
+    height: 300px;
+}
+.pingwi{
+    background: url(https://kartinkin.net/uploads/posts/2021-07/1627165815_28-kartinkin-com-p-zadnii-fon-led-krasivo-28.jpg);
+}
+.gus img{
+    margin-left: 1em;
+}
+.pingwi img{
+    margin-right: 1em;
+}
+div p{
+    text-align: justify;
+    font-size: 1.5em;
+}
+.duck{
+    background: url(https://phonoteka.org/uploads/posts/2021-10/1633097150_14-phonoteka-org-p-anime-fon-ozero-krasivo-14.jpg);
+}
+.duck img{
+    margin-left: 1em;
+}
+li{
+    display: inline-block;
+    margin: 3em;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+}
+button{
+    background-color: rgb(96, 120, 255);
+    width: 150px;
+    height: 100%;
+    border-radius: 30%;
+    border: none;
+    padding: 10px;
+}
+@media screen and (max-width:1060px){
+    div{
+        font-size: 0.5em;
+    }
+    li{
+        font-size: 0.5em;
+    }
+}
